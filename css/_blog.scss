@@ -1,0 +1,18 @@
+
+#Blog_head{
+	background: url('../img/p4.jpg');
+	height: 200px;
+	@extend %commonBg;
+
+	.img_overlay{
+		@extend %commonOverlay;
+
+	}
+
+}
+
+#blog{
+	img{
+		height:270px;
+	}
+}

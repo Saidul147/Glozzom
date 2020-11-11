@@ -1,0 +1,96 @@
+
+// home start
+.carousel-img-1{
+	background:url('../img/c1.jpg');
+}
+.carousel-img-2{
+	background:url('../img/c2.jpg');
+}
+.carousel-img-3{
+	background:url('../img/c3.jpg');
+}
+.carousel-img-1,.carousel-img-2,.carousel-img-3{
+	background-repeat: no-repeat;
+	background-size: cover;
+	// background-position: center;
+	width:100%;
+	height:100%;
+}
+.carousel-item{
+	height:450px;
+}
+.carousel-caption{
+	padding-bottom:3rem;
+	margin-bottom: 3rem;
+}
+
+// home icon start
+
+#home_icon{
+	i{
+		font-size:$icon_size;
+	}
+	p{
+		margin-bottom: 0px !important;
+		padding-bottom: 0px !important;
+	}
+}
+
+// get start
+
+#get_start{
+	background:url('../img/get.jpg');
+	min-height:250px;
+	@extend %commonBg;
+
+	.img_overlay{
+	   @extend %commonOverlay;
+
+	}
+}
+
+//home info start
+
+#homeInfo{
+	img{
+		height: auto;
+	}
+}
+
+//home video start
+
+#homeVideo{
+  background: url("../img/video.jpg");
+  min-height: 250px;
+  background-position:unset;
+  @extend %commonBg;
+
+
+
+	.fa{
+		font-size:$icon_size;
+		color:#ff0000;
+	}
+
+	.img_overlay{
+	@extend %commonOverlay;
+
+}
+
+
+}
+
+
+//gallary start
+
+#homePhoto{
+	img{
+		min-height:300px;
+	}
+}
+
+//copyright start
+
+#copywrite{
+	background: #000;
+}

@@ -1,0 +1,22 @@
+#service_head{
+	background: url('../img/servc.jpg');
+	height: 200px;
+	background-position:0px -380px !important;
+	@extend %commonBg;
+
+
+	.img_overlay{
+		@extend %commonOverlay;
+
+	}
+
+}
+.accordion button,.accordion button:hover{
+		background:darkgreen;
+	    color:white;
+	
+}
+
+.accordion button.collapsed{
+	background:darkcyan;
+}

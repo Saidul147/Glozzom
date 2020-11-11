@@ -1,0 +1,65 @@
+$icon_size:50px;
+$dark_overlay:rgba(0,0,0,0.7);
+
+html{
+	scroll-behavior: smooth;
+}
+
+@import "_navbar.scss";
+@import "_home.scss";
+@import "_about.scss";
+@import "_service.scss";
+@import "_blog.scss";
+@import "_contact.scss";
+
+
+@import "_comon.scss";
+// Common property gula extend er maddome use korte chaile common tare sobar pore import korte hobe
+
+
+@media screen and(max-width:991px) and(min-width:768px){
+	#homeInfo{
+	img{
+		height: 100%;
+	}
+}
+
+}
+
+@media screen and(max-width:767px){
+	.nav-item{
+	padding-left:0em;
+}
+	#get_start{
+		min-height: 300px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 480px){
+	.carousel{
+		h1{
+			font-size:2.5rem ;
+		}
+	 .carousel-caption{
+	     padding-bottom:1.5rem;
+	     margin-bottom: 1.5rem;
+
+	 }
+	}
+	#get_start{
+		min-height: 350px;
+	}
+
+	#service_head{
+		background-position:0px 0px !important;
+
+	}
+
+	#Contact_head{
+		background-position:0px 0px !important;
+
+	}
+}

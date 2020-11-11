@@ -1,0 +1,21 @@
+
+#Contact_head{
+	background: url('../img/contact.jpg');
+	height: 200px;
+	background-position:0px -185px !important;
+	@extend %commonBg;
+
+	.img_overlay{
+		@extend %commonOverlay;
+
+	}
+
+}
+#contact_address{
+	h3{
+
+	}
+	p{
+		margin: 0px;
+	}
+}

@@ -1,0 +1,62 @@
+
+
+#abouthead{
+	background: url('../img/about.jpg');
+	height: 200px;
+	@extend %commonBg;
+
+	.img_overlay{
+	@extend %commonOverlay;
+
+  }
+}
+
+
+
+#about_info{
+	img{
+		width:350px;
+		height:350px;
+	}
+}
+
+#icon_boxs{
+	.fa{
+		font-size: $icon_size;
+
+	}
+	h4{
+		margin-top: 18px !important;
+		margin-bottom: 10px;
+		color:#fff;
+	}
+	p{
+		margin-top: 0px;
+	}
+}
+#first,#second{
+	height: 150px;
+}
+#about_slider{
+	position: relative;
+
+}
+#prev-slide-div{
+	position: absolute;
+	top:12px;
+	right:0;
+	
+}
+#next-slide-div{
+	position: absolute;
+	top:12px;
+	left:0;
+
+}
+#prev_slide,#next_slide{
+	background: #fff;
+	border:unset;
+	font-size: 30px;
+	outline:unset;
+}
+

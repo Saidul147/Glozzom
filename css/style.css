@@ -1,0 +1,169 @@
+html {
+  scroll-behavior: smooth; }
+
+.nav-item {
+  padding-left: 1em; }
+
+.navbar {
+  background: #000; }
+
+.nav-link {
+  text-transform: uppercase; }
+
+.carousel-img-1 {
+  background: url("../img/c1.jpg"); }
+
+.carousel-img-2 {
+  background: url("../img/c2.jpg"); }
+
+.carousel-img-3 {
+  background: url("../img/c3.jpg"); }
+
+.carousel-img-1, .carousel-img-2, .carousel-img-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-caption {
+  padding-bottom: 3rem;
+  margin-bottom: 3rem; }
+
+#home_icon i {
+  font-size: 50px; }
+#home_icon p {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important; }
+
+#get_start {
+  background: url("../img/get.jpg");
+  min-height: 250px; }
+
+#homeInfo img {
+  height: auto; }
+
+#homeVideo {
+  background: url("../img/video.jpg");
+  min-height: 250px;
+  background-position: unset; }
+  #homeVideo .fa {
+    font-size: 50px;
+    color: #ff0000; }
+
+#homePhoto img {
+  min-height: 300px; }
+
+#copywrite {
+  background: #000; }
+
+#abouthead {
+  background: url("../img/about.jpg");
+  height: 200px; }
+
+#about_info img {
+  width: 350px;
+  height: 350px; }
+
+#icon_boxs .fa {
+  font-size: 50px; }
+#icon_boxs h4 {
+  margin-top: 18px !important;
+  margin-bottom: 10px;
+  color: #fff; }
+#icon_boxs p {
+  margin-top: 0px; }
+
+#first, #second {
+  height: 150px; }
+
+#about_slider {
+  position: relative; }
+
+#prev-slide-div {
+  position: absolute;
+  top: 12px;
+  right: 0; }
+
+#next-slide-div {
+  position: absolute;
+  top: 12px;
+  left: 0; }
+
+#prev_slide, #next_slide {
+  background: #fff;
+  border: unset;
+  font-size: 30px;
+  outline: unset; }
+
+#service_head {
+  background: url("../img/servc.jpg");
+  height: 200px;
+  background-position: 0px -380px !important; }
+
+.accordion button, .accordion button:hover {
+  background: darkgreen;
+  color: white; }
+
+.accordion button.collapsed {
+  background: darkcyan; }
+
+#Blog_head {
+  background: url("../img/p4.jpg");
+  height: 200px; }
+
+#blog img {
+  height: 270px; }
+
+#Contact_head {
+  background: url("../img/contact.jpg");
+  height: 200px;
+  background-position: 0px -185px !important; }
+
+#contact_address p {
+  margin: 0px; }
+
+#get_start, #homeVideo, #abouthead, #service_head, #Blog_head, #Contact_head {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; }
+
+#get_start .img_overlay, #homeVideo .img_overlay, #abouthead .img_overlay, #service_head .img_overlay, #Blog_head .img_overlay, #Contact_head .img_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #homeInfo img {
+    height: 100%; } }
+@media screen and (max-width: 767px) {
+  .nav-item {
+    padding-left: 0em; }
+
+  #get_start {
+    min-height: 300px; } }
+@media screen and (max-width: 480px) {
+  .carousel h1 {
+    font-size: 2.5rem; }
+  .carousel .carousel-caption {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem; }
+
+  #get_start {
+    min-height: 350px; }
+
+  #service_head {
+    background-position: 0px 0px !important; }
+
+  #Contact_head {
+    background-position: 0px 0px !important; } }
+
+/*# sourceMappingURL=style.css.map */
